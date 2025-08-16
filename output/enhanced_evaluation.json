@@ -1,0 +1,254 @@
+{
+  "video_info": {
+    "path": "input_video.mp4",
+    "dimensions": "720x1280",
+    "fps": 30,
+    "total_frames": 139,
+    "duration_seconds": 4.633333333333334
+  },
+  "processing_info": {
+    "frames_processed": 136,
+    "average_processing_fps": 11.838981901840896,
+    "total_processing_time": 19.052891492843628,
+    "performance_grade": "Good"
+  },
+  "enhanced_analysis": {
+    "contact_moments": [
+      {
+        "frame_number": 70,
+        "timestamp": 2.3333333333333335,
+        "confidence": 0.7,
+        "wrist_velocity": 2.3350156056014897,
+        "impact_angle": 153.61369481486526
+      },
+      {
+        "frame_number": 71,
+        "timestamp": 2.3666666666666667,
+        "confidence": 0.7,
+        "wrist_velocity": 10.23277294601594,
+        "impact_angle": 150.42974494514235
+      },
+      {
+        "frame_number": 72,
+        "timestamp": 2.4,
+        "confidence": 0.7,
+        "wrist_velocity": 1.5509775835276578,
+        "impact_angle": 161.6785505733602
+      },
+      {
+        "frame_number": 77,
+        "timestamp": 2.566666666666667,
+        "confidence": 0.7,
+        "wrist_velocity": 5.5032910268522,
+        "impact_angle": 160.68132518722766
+      },
+      {
+        "frame_number": 78,
+        "timestamp": 2.6,
+        "confidence": 0.7,
+        "wrist_velocity": 5.717131047903509,
+        "impact_angle": 167.89662014826766
+      },
+      {
+        "frame_number": 79,
+        "timestamp": 2.6333333333333333,
+        "confidence": 0.7,
+        "wrist_velocity": 0.6945312680016416,
+        "impact_angle": 169.21398054049737
+      },
+      {
+        "frame_number": 82,
+        "timestamp": 2.7333333333333334,
+        "confidence": 0.7,
+        "wrist_velocity": 0.7435295816871311,
+        "impact_angle": 157.0733430477091
+      },
+      {
+        "frame_number": 85,
+        "timestamp": 2.8333333333333335,
+        "confidence": 0.7,
+        "wrist_velocity": 0.6632456168982586,
+        "impact_angle": 152.39179014096044
+      },
+      {
+        "frame_number": 86,
+        "timestamp": 2.8666666666666667,
+        "confidence": 0.7,
+        "wrist_velocity": 4.205121850150538,
+        "impact_angle": 148.29179131168192
+      },
+      {
+        "frame_number": 87,
+        "timestamp": 2.9,
+        "confidence": 0.7,
+        "wrist_velocity": 3.809917975017785,
+        "impact_angle": 147.06036736584397
+      },
+      {
+        "frame_number": 88,
+        "timestamp": 2.933333333333333,
+        "confidence": 0.7,
+        "wrist_velocity": 1.3490466129205478,
+        "impact_angle": 153.23137368517823
+      },
+      {
+        "frame_number": 96,
+        "timestamp": 3.2,
+        "confidence": 0.7,
+        "wrist_velocity": 0.5657613122934597,
+        "impact_angle": 154.78510470530765
+      },
+      {
+        "frame_number": 99,
+        "timestamp": 3.3,
+        "confidence": 0.7,
+        "wrist_velocity": 0.1722760727664213,
+        "impact_angle": 153.27428579266694
+      },
+      {
+        "frame_number": 102,
+        "timestamp": 3.4,
+        "confidence": 0.7,
+        "wrist_velocity": 0.7691660721667738,
+        "impact_angle": 158.6909968148792
+      },
+      {
+        "frame_number": 105,
+        "timestamp": 3.5,
+        "confidence": 0.7,
+        "wrist_velocity": 0.7106809748689377,
+        "impact_angle": 157.60431756934523
+      },
+      {
+        "frame_number": 108,
+        "timestamp": 3.6,
+        "confidence": 0.7,
+        "wrist_velocity": 0.1874305017253827,
+        "impact_angle": 163.95586148035815
+      },
+      {
+        "frame_number": 111,
+        "timestamp": 3.7,
+        "confidence": 0.7,
+        "wrist_velocity": 1.7515887722569683,
+        "impact_angle": 152.28683951609327
+      },
+      {
+        "frame_number": 112,
+        "timestamp": 3.7333333333333334,
+        "confidence": 0.7,
+        "wrist_velocity": 0.38518996126107946,
+        "impact_angle": 143.55027368738652
+      },
+      {
+        "frame_number": 115,
+        "timestamp": 3.8333333333333335,
+        "confidence": 1.0,
+        "wrist_velocity": 1.1840244660574746,
+        "impact_angle": 102.73100129987903
+      },
+      {
+        "frame_number": 116,
+        "timestamp": 3.8666666666666667,
+        "confidence": 1.0,
+        "wrist_velocity": 2.547518847113856,
+        "impact_angle": 89.20323635949855
+      },
+      {
+        "frame_number": 118,
+        "timestamp": 3.933333333333333,
+        "confidence": 1.0,
+        "wrist_velocity": 1.299252632048176,
+        "impact_angle": 58.23681991709272
+      },
+      {
+        "frame_number": 121,
+        "timestamp": 4.033333333333333,
+        "confidence": 0.7,
+        "wrist_velocity": 0.6619395911412141,
+        "impact_angle": 72.87318652436092
+      }
+    ],
+    "phase_transitions": 1,
+    "smoothness_scores": {
+      "elbow_smoothness": 0.9258004206479391,
+      "spine_smoothness": 0.9702950291727078,
+      "overall_smoothness": 0.9480477249103234
+    },
+    "reference_comparison": {
+      "elbow_analysis": {
+        "average_angle": 143.9,
+        "ideal_angle": 70,
+        "deviation": 73.9,
+        "grade": "needs_improvement"
+      },
+      "spine_analysis": {
+        "average_lean": 59.4,
+        "ideal_lean": 20,
+        "deviation": 39.4,
+        "grade": "needs_improvement"
+      },
+      "smoothness_analysis": {
+        "actual_smoothness": 0.95,
+        "ideal_smoothness": 0.95,
+        "grade": "excellent"
+      }
+    },
+    "skill_assessment": {
+      "grade": "Advanced",
+      "score": 8.9,
+      "confidence": 0.95,
+      "description": "Excellent technique with consistent execution",
+      "component_scores": {
+        "consistency": 7.1,
+        "smoothness": 9.5,
+        "timing": 10.0
+      }
+    }
+  },
+  "traditional_scores": {
+    "footwork": {
+      "score": 8.4,
+      "feedback": "Focus on consistent foot positioning and balance",
+      "grade": "A"
+    },
+    "head_position": {
+      "score": 9.8,
+      "feedback": "Keep head steady and aligned over front knee",
+      "grade": "A+"
+    },
+    "swing_control": {
+      "score": 7.6,
+      "feedback": "Maintain smooth and consistent elbow extension",
+      "grade": "B+"
+    },
+    "balance": {
+      "score": 9.9,
+      "feedback": "Work on core stability throughout the shot",
+      "grade": "A+"
+    },
+    "follow_through": {
+      "score": 9.0,
+      "feedback": "Complete the stroke with high elbow finish",
+      "grade": "A+"
+    }
+  },
+  "advanced_insights": {
+    "technique_consistency": 9.5,
+    "timing_precision": 4.748201438848921,
+    "balance_stability": 9.9,
+    "overall_technical_grade": "Advanced"
+  },
+  "recommendations": [
+    "Focus on single, clean contact - avoid multiple swing attempts",
+    "Work on complete shot execution - practice full cover drive sequence",
+    "Fine-tune shot selection and placement",
+    "Practice under pressure situations",
+    "Focus on advanced stroke variations"
+  ],
+  "output_files": {
+    "annotated_video": "output/enhanced_annotated_video.mp4",
+    "temporal_charts": "output/temporal_analysis.html",
+    "detailed_report": "output/enhanced_evaluation.json"
+  }
+}

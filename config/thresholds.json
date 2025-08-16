@@ -1,0 +1,45 @@
+{
+  "pose_detection": {
+    "confidence_threshold": 0.7,
+    "detection_threshold": 0.5
+  },
+  "biomechanical_thresholds": {
+    "front_elbow_angle": {
+      "good_min": 100,
+      "good_max": 140,
+      "excellent_min": 110,
+      "excellent_max": 130
+    },
+    "spine_lean": {
+      "good_min": 10,
+      "good_max": 30,
+      "excellent_min": 15,
+      "excellent_max": 25
+    },
+    "head_knee_alignment": {
+      "good_threshold": 50,
+      "excellent_threshold": 30
+    },
+    "foot_direction": {
+      "good_min": -15,
+      "good_max": 45,
+      "excellent_min": 0,
+      "excellent_max": 30
+    }
+  },
+  "video_processing": {
+    "target_fps": 30,
+    "max_width": 1280,
+    "max_height": 720
+  },
+  "phase_detection": {
+    "velocity_threshold": 0.05,
+    "angle_change_threshold": 5,
+    "smoothing_window": 5
+  },
+  "reference_angles": {
+    "ideal_elbow_angle": 120,
+    "ideal_spine_lean": 20,
+    "ideal_head_knee_distance": 25
+  }
+}
